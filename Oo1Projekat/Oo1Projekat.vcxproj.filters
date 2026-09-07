@@ -13,5 +13,210 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Abstract Classes">
+      <UniqueIdentifier>{ac5ce128-2798-42f7-b92c-6eacf8376135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error Messangers">
+      <UniqueIdentifier>{6016496a-2e19-4d84-b9d6-212e8894c0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input Streams">
+      <UniqueIdentifier>{b42d4269-a415-4c10-b0a4-b630711e4dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output Streams">
+      <UniqueIdentifier>{05a99720-5f92-4cae-bd86-221bf1af4932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{8f60094d-2e37-4772-ba1a-8c41d1ced79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{609295b8-f3cd-4ffc-9a0c-0d48537391d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputStream.h">
+      <Filter>Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="StringInput.h">
+      <Filter>Input Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="InterpreterError.h">
+      <Filter>Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="FileError.h">
+      <Filter>Error Messangers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInput.h">
+      <Filter>Input Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandError.h">
+      <Filter>Error Messangers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleInput.h">
+      <Filter>Input Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputStream.h">
+      <Filter>Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleOutput.h">
+      <Filter>Output Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOutput.h">
+      <Filter>Output Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Echo.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandFactory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTimeCommand.h">
+      <Filter>Abstract Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Touch.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Wc.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="LexicalError.h">
+      <Filter>Error Messangers</Filter>
+    </ClInclude>
+    <ClInclude Include="SyntaxError.h">
+      <Filter>Error Messangers</Filter>
+    </ClInclude>
+    <ClInclude Include="SemanticError.h">
+      <Filter>Error Messangers</Filter>
+    </ClInclude>
+    <ClInclude Include="StringOutput.h">
+      <Filter>Output Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="Truncate.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Rm.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Prompt.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Tr.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Batch.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InputStream.cpp">
+      <Filter>Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="StringInput.cpp">
+      <Filter>Input Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInput.cpp">
+      <Filter>Input Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpreterError.cpp">
+      <Filter>Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="FileError.cpp">
+      <Filter>Error Messangers</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandError.cpp">
+      <Filter>Error Messangers</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleInput.cpp">
+      <Filter>Input Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputStream.cpp">
+      <Filter>Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOutput.cpp">
+      <Filter>Output Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOutput.cpp">
+      <Filter>Output Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Echo.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandFactory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpreter.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTimeCommand.cpp">
+      <Filter>Abstract Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Touch.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Wc.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="LexicalError.cpp">
+      <Filter>Error Messangers</Filter>
+    </ClCompile>
+    <ClCompile Include="SyntaxError.cpp">
+      <Filter>Error Messangers</Filter>
+    </ClCompile>
+    <ClCompile Include="SemanticError.cpp">
+      <Filter>Error Messangers</Filter>
+    </ClCompile>
+    <ClCompile Include="StringOutput.cpp">
+      <Filter>Output Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="Truncate.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Rm.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Prompt.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Tr.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Batch.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
